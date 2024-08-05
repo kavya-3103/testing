@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavya | Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <!-- <a href="#projects" style="--i:4;">Projects</a> -->
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+ 
+    <!-- home section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello! I am</h3>
+            <h1>Bonagiri Kavya</h1>
+            <h3>Software Engineer <span class="multiple-text"></span></h3>
+            <p>Passionate Full Stack Developer with expertise in creating dynamic, user-centric websites. My portfolio showcases my skills in web development and design. Available for freelance or full-time opportunities to enhance your web projects.</p>
+        </div>
+    </section>
+     <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <header>
+                <h1>About Me</h1>
+            </header>
+            <div class="about-content">
+                <h2>I'm Bonagiri Kavya</h2>
+                <p>Engineer</p>
+                <p>A Java Full Stack Developer</p>
+                <p>Hello! I am a passionate Java Full Stack Developer with experience in a range of technologies including Java, Spring Boot, React, and SQL. I am dedicated to continuous learning and improvement, and I enjoy tackling challenging projects. In addition to my technical skills, I am committed to creating efficient and innovative solutions to real-world problems.</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <header>
+                <h1>My Skills</h1>
+            </header>
+            <div class="skills-content">
+                <div class="skill">
+                    <h2>Java</h2>
+                </div>
+                <div class="skill">
+                    <h2>HTML</h2>
+                </div>
+                <div class="skill">
+                    <h2>CSS</h2>
+                </div>
+                <div class="skill">
+                    <h2>JavaScript</h2>
+                </div>
+                <div class="skill">
+                    <h2>Python</h2>
+                </div>
+                <div class="skill">
+                    <h2>React</h2>
+                </div>
+                <div class="skill">
+                    <h2>Spring Boot</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <header>
+                <h1>Contact Me</h1>
+            </header>
+            <div class="contact-content">
+                <p>If you have any questions or would like to work with me, feel free to reach out!</p>
+                <form action="your-server-endpoint" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Add other sections for Skills and Contact here -->
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

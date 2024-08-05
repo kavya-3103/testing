@@ -1,0 +1,203 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #101820;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Header styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #101820;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 1px solid #333;
+}
+
+/* portfolio line is logo here */
+.logo {   
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #FEE715;
+}
+
+/* Home section styles */
+.home {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding: 70px 10% 0;
+    text-align: center;
+}
+
+.home-content {
+    max-width: 600px;
+    text-align:left;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+/* About section styles */
+.about {
+    background: #101820;
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.about .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about header h1 {
+    font-size: 2.5em;
+    color: #FEE715;
+    margin-bottom: 20px;
+}
+
+.about-content h2 {
+    font-size: 2em;
+    color: #FEE715;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #ddd;
+}
+
+/* Skills section styles */
+.skills {
+    background: #101820;
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.skills header h1 {
+    font-size: 2.5em;
+    color: #FEE715;
+    margin-bottom: 20px;
+}
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    background: #1f242d;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    color: #FEE715;
+    font-size: 1.2em;
+    font-weight: 500;
+    width: 180px;
+    min-height: 100px;
+}
+
+.skill:hover {
+    background: #FEE715;
+    color: #1f242d;
+}
+
+/* Contact section styles */
+.contact {
+    background: #101820;
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.contact header h1 {
+    font-size: 2.5em;
+    color: #FEE715;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contact-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-content label {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.contact-content input,
+.contact-content textarea {
+    padding: 10px;
+    border: 1px solid #FEE715;
+    border-radius: 8px;
+    background: #1f242d;
+    color: #fff;
+    font-size: 1em;
+}
+
+.contact-content button {
+    padding: 12px 28px;
+    background: #FEE715;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #1f242d;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.contact-content button:hover {
+    background: #1f242d;
+    color: #FEE715;
+}
